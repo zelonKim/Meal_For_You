@@ -3,7 +3,7 @@ import AppLayout from "@/components/AppLayout";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Zelon Meal",
+  title: "Meal For You",
   description: "AI 기반 식단 추천 플랫폼",
   icons: {
     icon: "/favicon.ico",

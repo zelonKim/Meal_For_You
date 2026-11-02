@@ -438,7 +438,7 @@ export default function MyPageScreen() {
           <View style={styles.nicknameModalBox}>
             <Text style={styles.nicknameModalTitle}>✏️ 닉네임 변경</Text>
             <Text style={styles.nicknameModalSub}>
-              ZelonMeal에서 사용할 새로운 닉네임을 적어주세요.
+              Meal For You에서 사용할 새로운 닉네임을 적어주세요.
             </Text>
 
             <TextInput

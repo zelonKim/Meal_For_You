@@ -1,4 +1,4 @@
-# 🌐 ZelonMeal - Next.js Frontend Web (웹 프론트엔드)
+# 🌐 Meal For You - Next.js Frontend Web (웹 프론트엔드)
 
 > **Dashboard and web application dedicated to personalized meal recommendation and tracking.**  
 > Delivers intuitive UI/UX based on Next.js App Router architecture, communicating efficiently with the backend via React Query (`@tanstack/react-query`) and Axios HTTP client.

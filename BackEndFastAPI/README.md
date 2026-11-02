@@ -1,4 +1,4 @@
-# 🤖 ZelonMeal - FastAPI AI Server (FastAPI AI 서버)
+# 🤖 Meal For You - FastAPI AI Server (FastAPI AI 서버)
 
 > **Asynchronous AI microservice backend server dedicated to AI meal recommendation and re-generation logic.**  
 > Communicates with the Django main backend server to receive user physical metrics (age, gender, weight), dietary goals, health conditions, and feedback data to generate and return OpenAI API-driven meal recommendations.

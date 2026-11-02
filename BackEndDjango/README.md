@@ -1,4 +1,4 @@
-# 💻 ZelonMeal - DRF Main Backend Server (Django REST Framework 메인 백엔드 서버)
+# 💻 Meal For You - DRF Main Backend Server (Django REST Framework 메인 백엔드 서버)
 
 > **Main backend server responsible for user management, profile data management, meal history tracking, and data retrieval.**  
 > A RESTful API server built on Django REST Framework (DRF) that manages user physical metrics and profile data, handling key platform logic such as AI-recommended meal plans and nutritional analytics.

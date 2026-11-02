@@ -1,11 +1,11 @@
-# 🥗 ZelonMeal - AI-Powered Personalized Meal Recommendation Platform (AI 기반 식단 추천 플랫폼)
+# 🥗 Meal For You - AI-Powered Personalized Meal Recommendation Platform (AI 기반 식단 추천 플랫폼)
 
 > **AI analyzes user physical metrics, health conditions, and dietary goals to deliver optimal daily meal plans.**  
-> ZelonMeal makes personalized diet and meal management easier and more convenient.  
+> Meal For You makes personalized diet and meal management easier and more convenient.  
 > The AI analyzes user body parameters (age, gender, weight), dietary goals, preferred eating styles, and health conditions (allergies, underlying diseases) to generate **tailored daily meal plans**.
 >
 > **AI가 사용자의 신체 정보, 건강 상태, 식단 목적을 분석하여 최적의 하루 식단을 추천해줍니다.**  
-> ZelonMeal은 개인 맞춤형 식단 관리를 더욱 쉽고 편리하게 만들어줍니다. 사용자의 신체 정보(나이, 성별, 체중), 식단 관리 목적, 선호 식단 스타일, 건강 특이사항(알레르기, 보유질환)을 AI가 분석하여 **최적의 하루 맞춤 식단**을 추천해줍니다.
+> Meal For You는 개인 맞춤형 식단 관리를 더욱 쉽고 편리하게 만들어줍니다. 사용자의 신체 정보(나이, 성별, 체중), 식단 관리 목적, 선호 식단 스타일, 건강 특이사항(알레르기, 보유질환)을 AI가 분석하여 **최적의 하루 맞춤 식단**을 추천해줍니다.
 
 ---
 
