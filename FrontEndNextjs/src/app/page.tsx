@@ -28,7 +28,7 @@ export default function TodayMealDashboard() {
   const [feedbackModalVisible, setFeedbackModalVisible] = useState(false);
   const [userFeedback, setUserFeedback] = useState("");
 
-  const { t } = useDashboardLanguage(); // 👈 다국어 훅 사용
+  const { t } = useDashboardLanguage();
 
   const { data: userProfile, isLoading: isProfileLoading } = useQuery({
     queryKey: ["userProfile"],
@@ -111,7 +111,7 @@ export default function TodayMealDashboard() {
   return (
     <div className="w-full flex flex-col min-h-screen bg-[#F8FAFC]">
       <header className="h-16 shrink-0 bg-white border-b border-gray-100 shadow-md flex items-center justify-between px-8 shadow-gray-50/10">
-        <div className="flex items-center gap-2 text-sm font-bold text-gray-400">
+        <div className="flex items-center gap-2 text-sm font-bold text-emerald-500">
           <LayoutDashboard size={16} />
           <span className="text-gray-800 text-base font-extrabold">
             {t.headerTitle}

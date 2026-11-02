@@ -1,4 +1,4 @@
-# 📱 ZelonMeal - FrontEnd Mobile App (모바일 앱 클라이언트)
+# 📱 Meal For You - FrontEnd Mobile App (모바일 앱 클라이언트)
 
 > **Mobile application client dedicated to personalized meal recommendation and tracking.**  
 > **식단 추천 및 관리를 위한 모바일 전용 앱**

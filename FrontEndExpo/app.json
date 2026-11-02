@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "ZelonMeal",
+    "name": "Meal For You",
     "slug": "zelonmeal",
     "scheme": "zelonmeal",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "automatic",
@@ -36,10 +36,7 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-router",
-      "expo-secure-store"
-    ],
+    "plugins": ["expo-router", "expo-secure-store"],
     "experiments": {
       "typedRoutes": true
     },

@@ -4,7 +4,7 @@ import { useSyncExternalStore } from "react";
 
 const loginTexts = {
   ko: {
-    subtitle: "오늘의 건강한 한끼 식단",
+    subtitle: "당신을 위한 건강한 한끼 식단",
     appDownload: "앱 다운로드",
     emailPlaceholder: "이메일을 입력해주세요",
     passwordPlaceholder: "비밀번호를 입력해주세요",
@@ -15,7 +15,7 @@ const loginTexts = {
     alertPassword: "비밀번호를 입력해주세요.",
   },
   en: {
-    subtitle: "Today's Healthy Meal",
+    subtitle: "Your Personal Healthy Meal",
     appDownload: "App Download",
     emailPlaceholder: "Please enter your email",
     passwordPlaceholder: "Please enter your password",
@@ -25,9 +25,9 @@ const loginTexts = {
     alertEmail: "Please enter your email.",
     alertPassword: "Please enter your password.",
   },
-} as const; 
+} as const;
 
-type Locale = keyof typeof loginTexts; 
+type Locale = keyof typeof loginTexts;
 
 const emptySubscribe = () => () => {};
 
@@ -35,10 +35,13 @@ export function useLoginLanguage() {
   const locale = useSyncExternalStore<Locale>(
     emptySubscribe,
     () => {
-      const browserLang = navigator.language || (navigator.languages && navigator.languages[0]);
-      return browserLang && !browserLang.toLowerCase().startsWith("ko") ? "en" : "ko";
+      const browserLang =
+        navigator.language || (navigator.languages && navigator.languages[0]);
+      return browserLang && !browserLang.toLowerCase().startsWith("ko")
+        ? "en"
+        : "ko";
     },
-    () => "ko"
+    () => "ko",
   );
 
   return { t: loginTexts[locale], locale };

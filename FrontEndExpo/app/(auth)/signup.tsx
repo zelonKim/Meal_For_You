@@ -72,7 +72,7 @@ export default function SignUp() {
               <View style={styles.headerArea}>
                 <Text style={styles.title}>식사하셨어요? 🥗</Text>
                 <Text style={styles.subtitle}>
-                  AI로부터 건강한 식단을 추천받아보세요!
+                  가입하고, 건강한 식단을 추천받아보세요!
                 </Text>
               </View>
 
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
     color: "#111827",
   },
   subtitle: {
-    fontSize: 14,
+    fontSize: Platform.OS === "ios" ? 14 : 13.5,
     color: "#6B7280",
     marginTop: 8,
   },
@@ -213,11 +213,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     gap: 8,
-    marginTop: Platform.OS === "ios" ? 190 : 150,
+    marginTop: Platform.OS === "ios" ? 10 : 5,
     marginBottom: 60,
   },
   footerText: {
-    fontSize: 14,
+    fontSize: Platform.OS === "ios" ? 14 : 13,
     color: "#4B5563",
   },
   backLinkText: {

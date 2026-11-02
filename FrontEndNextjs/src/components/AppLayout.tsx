@@ -55,13 +55,13 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <aside className="w-64 shrink-0 bg-gray-950 text-gray-400 z-30 h-full fixed top-0 left-0 transform-gpu hidden md:flex flex-col justify-between p-6 border-r border-r-gray-800">
         <div className="space-y-8">
           <Link href="/" className="flex items-center gap-3 px-2">
-            <div className="w-8 h-8 rounded-xl bg-emerald-400 flex items-center justify-center text-gray-950 font-black text-sm">
-              Z
+            <div className="w-8 h-8 rounded-xl bg-emerald-500 flex items-center justify-center text-gray-950 font-black text-base">
+              🥑
             </div>
             <span className="font-black text-lg text-white tracking-tight">
-              ZelonMeal{" "}
+              Meal For You{" "}
               <span className="text-xs text-emerald-400 font-bold ml-1">
-                Pro
+                LITE
               </span>
             </span>
           </Link>

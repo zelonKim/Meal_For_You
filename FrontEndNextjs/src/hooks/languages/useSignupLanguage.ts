@@ -18,7 +18,7 @@ const signupTexts = {
   },
   en: {
     title: "Have you eaten? 🥗",
-    subtitle: "Get healthy meal recommendations from AI!",
+    subtitle: "Get healthy meal recommendations from AI",
     emailPlaceholder: "Email address",
     passwordPlaceholder: "Password (8+ chars, letters & numbers)",
     passwordConfirmPlaceholder: "Confirm password",

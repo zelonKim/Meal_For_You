@@ -61,7 +61,7 @@ export default function LoginScreen() {
             {t.subtitle}
           </span>
           <h1 className="text-[32px] font-black text-emerald-500 tracking-tight">
-            ZelonMeal 🥑
+            Meal For You 🥑
           </h1>
         </div>
 

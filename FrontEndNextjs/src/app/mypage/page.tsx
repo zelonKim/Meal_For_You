@@ -232,7 +232,7 @@ export default function MyPageScreen() {
                 key={choice.value}
                 type="button"
                 onClick={() => handleInputChange("purpose", choice.value)}
-                className={`cursor-pointer p-4 text-[15px] font-bold rounded-xl border text-center flex items-center justify-center gap-1.5 transition-all ${
+                className={`cursor-pointer p-4 text-[14px] font-bold rounded-xl border text-center flex items-center justify-center gap-1.5 transition-all ${
                   userInfo.purpose === choice.value
                     ? "bg-emerald-500 border-emerald-500 text-white font-black shadow-md shadow-emerald-500/10"
                     : "bg-gray-50 border-gray-200/60 text-gray-500 hover:bg-gray-100"

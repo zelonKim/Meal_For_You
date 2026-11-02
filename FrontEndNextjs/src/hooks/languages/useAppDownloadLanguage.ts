@@ -4,7 +4,7 @@ import { useSyncExternalStore } from "react";
 
 const modalTexts = {
   ko: {
-    title: "ZelonMeal 앱 다운로드",
+    title: "Meal For You 앱 다운로드",
     subtitle: "QR 코드를 스캔하여 앱을 설치해 보세요",
     androidTab: "Android",
     iosTab: "iOS",
@@ -25,7 +25,7 @@ const modalTexts = {
     },
   },
   en: {
-    title: "Download ZelonMeal App",
+    title: "Download Meal For You App",
     subtitle: "Scan the QR code to install the app",
     androidTab: "Android",
     iosTab: "iOS",
